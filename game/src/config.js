@@ -1,0 +1,51 @@
+// config.js — every tuned number for Velvet Vault lives here.
+export const CONFIG = {
+  W: 1280,
+  H: 720,
+  HUD_H: 56,
+  PLAY_TOP: 64,
+  PLAYER_R: 12,
+  GUARD_R: 13,
+
+  WALK_SPEED: 152,
+  SNEAK_SPEED: 74,
+
+  GUARD_PATROL_SPEED: 58,
+  GUARD_SUSPICIOUS_SPEED: 94,
+  GUARD_CHASE_SPEED: 132,
+
+  GUARD_RANGE: 178,
+  GUARD_HALF_ANGLE: 0.61,
+  CAMERA_RANGE: 212,
+  CAMERA_HALF_ANGLE: 0.52,
+
+  // Detection fills 0..1 per guard. 0.45 = suspicious, 0.85 = alert.
+  DETECT_BASE: 1.15,
+  DETECT_CLOSE_BONUS: 1.7,
+  DETECT_DECAY: 0.55,
+
+  ALARM_GUARD_RATE: 15,
+  ALARM_CAMERA_RATE: 22,
+  ALARM_DECAY: 7,
+  ALARM_MAX: 100,
+
+  NOISE_RADIUS: 96,
+
+  SMOKE_COUNT: 2,
+  SMOKE_RADIUS: 150,
+  SMOKE_SECONDS: 5,
+  SMOKE_COST: 50,
+
+  EMP_COUNT: 1,
+  EMP_SECONDS: 8,
+  EMP_COST: 50,
+
+  LOOT_PICKUP_R: 30,
+  GUARD_CATCH_R: 20,
+
+  GRID: 32,
+  GRID_PAD: 14,
+
+  SHOT_PLAY_STEPS: 600,
+  SHOT_END_MAX_STEPS: 3600,
+};
